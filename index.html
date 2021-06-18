@@ -1,37 +1,72 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-
-<title> Home - Coraverse</title>
-<link rel="icon" href="images/orangelogo.png" type="image/x-icon">
+<html>
+<head>
+<title>Home - Coraverse</title>
+<link rel="icon" href="images/whitelogo.png" type = "image/x-icon">
 <link rel="stylesheet" href="styles/home.css" type="text/css">
+<script src="scripts/slideshow.js" type="text/javascript"></script>
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/isabella-sans" type="text/css"/>
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/hk-venetian" type="text/css"/>
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/noto-sans-semicondensed" type="text/css"/>
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/saigon-sans" type="text/css"/>
+<link rel="stylesheet" href="styles/nav.css" type="text/css"> 
 
-    </head>
-    <body>
-        <header>
-<nav class="mainmenu">
-    <div class="logolink"><a href="index.html"><img src="images/logo.png" alt="Coraverse Logo"></a></div>
-    <ul class="links">
-        <li><a class="navlinks" href="index.html">Home</a></li>
-        <li><a class="navlinks" href="products.html"> Products</a></li>
-        <li><a class="navlinks" href="about.html">About</a></li>
-        <li><a class="navlinks" href="blog.html">Blog</a></li>
-        <li><a class="navlinks" href="contact.html"> Contact</a></li>
-    </ul>
-</nav>
-        </header>
-        <main>
-<section class="buytarot">
-    <div class="tarotimage"><img src="images/tarotthestar.JPG" alt="A picture of The Star Tarot Card"></div>
-<div class="tarottext"> Take a look at our new tarot deck! Its so wonderful <br>
-i love this one so much please buy it <br>
-its so aesthetically pleasing <br>
-</div>
-</section>
-        </main>
-        <footer>
 
-        </footer>
-    </body>
+
+</head>
+<body>
+    <header>
+
+        <nav>
+            <a href="index.html"><img src="images/thinlogo.png" alt="coraverse logo that is a crystal ball" class="logoimg"></a>
+            <a href="index.html"> <h3> coraverse </h3></a>
+            <ul class="linknames">
+               <li class="mainmenu"><a href="featured.html">featured</a></li>
+               <li class="mainmenu"><a href="products.html">Shop</a></li>
+               <li class="mainmenu"><a href="blog.html">Blog</a></li>
+               <li class="mainmenu"><a href="about.html">Bio</a></li>
+               <li class="mainmenu"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="slider">
+            <div class="slides">
+              
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              
+              <div class="slide first">
+               <a href="products.html"><img src="images/tarotp1.jpg" alt=""></a> 
+              </div>
+              <div class="slide">
+               <a href="products.html"> <img src="images/tarotp2.jpg" alt=""></a>
+              </div>
+              <div class="slide">
+               <a href="products.html"> <img src="images/tarotp3.jpg" alt=""></a>
+              </div>
+            
+              
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                
+              </div>
+              
+            </div>
+            
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+             
+            </div>
+           
+        </section>
+         
+    </main>
+    
+</body>
 </html>

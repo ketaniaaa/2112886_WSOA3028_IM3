@@ -1,0 +1,99 @@
+body{
+    background-color: #f3ece0;
+   /* background-image: url(https://64.media.tumblr.com/d00e2be11043596157aae0cbdd8584a0/9abf4d9f499e6634-bc/s640x960/c49463dea0ea85252900d4b6f096b582b221b807.jpg);
+ */ background-repeat: repeat-y;
+  background-size: cover;
+    margin: 0;
+width: 90%;
+
+    
+    
+    align-content: center;
+
+}
+.logoimg{
+    width: 3em;
+    height: 3.4em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+}
+
+@font-face {
+  font-family: 'Chromate Regular';
+  src: url('fonts/Chromate-Regular.otf') format('otf'), url('fonts/Chromate-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Serat Ultra';
+    src: url("fonts/SerateUltra-1GE24.ttf") format("truetype");
+}
+header{
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 90%;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: solid black thin;
+    z-index: 2;
+}
+.tarotpic{
+    width: 200px;
+}
+nav {
+    display: inline-flex;
+    text-transform: uppercase;
+  
+    word-spacing: 4em;
+    font-family: 'NotoSansSemiCondensedThin';
+   font-weight: thin;
+   font-style: normal;
+
+    
+    
+   
+}
+h3{
+    padding: 3em, 30em, 0, 25em;
+    align-items: baseline;
+    font-size: 1.5em;
+   letter-spacing: 1em;
+    float: left;
+    color: black;
+    
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+   position: relative;
+   align-items: center;
+   align-self: center;
+text-align: right;
+color: black;
+font-weight: bold;
+letter-spacing: 0.4em;
+
+
+
+}
+.mainmenu{
+    padding-right: 2em;
+    padding-left: 2em;
+    text-decoration: none;
+    
+}
+a{ 
+    text-decoration: none;
+    color: black;
+    font-weight: thin;
+}
+li a:hover{
+    color:rgb(71, 71, 71);
+   font-weight: bold;
+    padding-bottom: 1em;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: solid thin rgb(71, 71, 71);
+  }
