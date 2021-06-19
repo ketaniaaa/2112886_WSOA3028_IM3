@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700|Work+Sans');
 body {
     background-color: rgb(255, 253, 253);
-    padding: 0.25em; /* 20 */
+    padding: 0.25em; 
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    
+  }
+  main{
+    font-family: 'Space Mono';
   }
   header{
       text-align: center;
@@ -9,6 +15,7 @@ body {
   margin-right: 1em;
   margin-left: 1em;
   border-bottom: solid thin black;
+  z-index: 2;
   }
   .linknames{
       margin-top: 1em;
@@ -41,7 +48,7 @@ body {
       display: inline-block;
       text-transform: uppercase;
     font-family: 'NotoSansSemiCondensedThin';
-    font-weight: thin;
+  
     letter-spacing: 0.2em;
   }
   #nav {
@@ -70,8 +77,8 @@ body {
     border-bottom: #000000 solid thin;
   }
   .logoimg a:active{
-      background-color: #00000000;
-  }
+      background-color: #00000000; /*opacity is zero bc i dont want it to be highlighted when clicked on mostly bc i saw other sites do that*/
+  } /*note to self: dnt change opacity on this one*/
   #nav span:after {
     width: 0;
     height: 0;
@@ -104,10 +111,11 @@ body {
   }
   
   #nav li ul {
-    background-color: #0000001f;
+    background-color: rgb(255, 220, 191);
     display: none;
     position: absolute;
     top: 100%;
+    z-index: 2;
   }
   #nav li:hover ul {
     display: block;
@@ -124,7 +132,8 @@ body {
   }
   #nav li ul li a:hover,
   #nav li ul:not( :hover ) li.active a {
-    background-color: #79797925;
+    background-color: rgb(255, 188, 125);
+    z-index: 2;
     
   }
   @media only screen and ( max-width: 62.5em ) { 
