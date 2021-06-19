@@ -16,8 +16,17 @@ body{
     align-items: center;
     
   }
-  
-  
+  hr{
+  border: 1px black solid;
+  transform: translateY(-200%);
+  }
+  .vr{
+    transform: translateY(80%);
+    width:0.1%; 
+    height: 4em;
+     display: inline-block;
+     background-color: black;
+  }
   .slider{
     width: 70em;
     height: 70%;
