@@ -3,14 +3,26 @@
     <head>
         <title>New and Featured</title>
         <link rel="icon" href="images/whitelogo.png" type = "image/x-icon">
-        <link rel="stylesheet" href="styles/featured.css" type="text/css">
+
+
+        <script src="scripts/footer.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/footer.css" type="text/css">     <link rel="stylesheet" href="styles/featured.css" type="text/css">
+       
+       <meta name="viewport" content="width=device-width, initial-scale=1">
        <link rel="stylesheet" href="styles/nav.css" type="text/css">
+
+
        <script src="scripts/nav.js" type="text/javascript"></script>
+       <script src="scripts/footer.js" type="text/javascript"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="styles/footer.css" type="text/css">
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/isabella-sans" type="text/css"/>
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/hk-venetian" type="text/css"/>
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/noto-sans-semicondensed" type="text/css"/>
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/saigon-sans" type="text/css"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 
 
     </head>
@@ -24,14 +36,14 @@
                         </a>
                         
                           <li>
-                            <a href="featured.html" aria-haspopup="true"><span>Home</span></a>
+                            <a href="featured.html" aria-haspopup="true"><span id="mainmenua">Home</span></a>
                               <ul>
                                   <li><a href="about.html">About</a></li>
                                   <li><a href="contact.html">Contact</a></li>
                               </ul>
                           </li>
                         <li>
-                          <a href="blog.html" aria-haspopup="true"><span>Blog</span></a>
+                          <a href="blog.html" aria-haspopup="true"><span id="mainmenu">Blog</span></a>
                             <ul>
                                 <li><a href="esoteric.html">Esoteric Blog Posts</a></li>
                                 <li><a href="theory.html">Theory</a></li>
@@ -53,25 +65,89 @@
                 </nav>
             </header>
         <main>
-            <section>
             <div class="container">
-                <figure class="getreadingimg">
-                    <img src="images/starsandorb.png" alt="An illustration of stars and and orb">
-                </figure>
-                    <img src="images/tarotsolo.jpg" alt="Hand holding the Star tarot card" class="tarotimg">
-                </figure>
-                <figcaption class="getreadingtext">
-                    <img src="https://images.pexels.com/photos/2843275/pexels-photo-2843275.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="getread" alt="Woman kneeling on ground over some tarot cards">
-                </figcaption>
-                <figure class="bannerpic"></figure>
-                <figcaption class="getreadingtxt">
-                    Get 30% off your reading with Cora if <br>
-                    you book for you and your dad before father's day. <br>
-                    Use Code: FATHERSDAY3O <br>
-                   <button class="button button1"> <a href="bookings.html" class="bookingbut"> book now</a></button>
-                </figcaption>
-              </div>
-             </section>
+                    <figure class="bannerpic">
+                       <img src="images/tarotcardthestar.png" alt="hand holding a single tarot card/ Tarot card, the Star" id="thestar">
+                       <figure id="buycopy">
+                           <h2 id="buytxt"> New Decks Just Dropped!</h2>
+                        <a href="products.html" id="buybutton">Check 'Em Out!</a></figure>
+                    </figure>
+                    <figure class="getreading">
+                        <img src="https://images.pexels.com/photos/2843275/pexels-photo-2843275.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                         alt="person kneeling over a spread of tarot cards"
+                         class="tarotpic">
+                         <img src="images/deco.png" alt="vector illustration of stars and an orb" class="decopng">
+                    </figure>
+                    <figcaption class="getreadingtext">
+                            <h3>
+                                FATHER's DAY SPECIAL
+                            </h3>
+                            <p>Get 30&#x25; off a tarot reading for you and your dad during the month of June!</p>
+                            <h4>use code: DADSANDLADS30</h4>
+                            <a href="bookings.html" id="bookinglink"> Book Now</a>
+                            <p> <sub>&#x2734 subject to availability</sub></p>
+                        
+                    </figcaption>
+                    <article class="bp1">
+                        <img src="https://images.pexels.com/photos/6330644/pexels-photo-6330644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                        alt="person working on code on a laptop infront of a wall with binary porjected onto it" id="blogimg">
+                       <span id="text">
+                            <h4>The Radical AI Podcast: Dismantling New Jim Code</h4>
+                        <p> by ketania govender</p> <time> 18 June 2021</time> <hr>
+                        <p>
+this week we take a look at the impact of racism on the way we create code.
+how can we best use artificial intelligence to achieve equality through 
+our digital spaces. 
+ 
+                        </p>
+                    </span>
+                        <a href="blogs/weekthirteen.html" id="bloglinks"> Read More.</a>
+                    </article>
+                    <article class="bp2">
+                        <img src="https://images.pexels.com/photos/4578660/pexels-photo-4578660.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                        alt="type write with a piece of paper that says 'machine learning' " id="blogimg">
+                       <span id="text">
+                            <h4>The Evil Side of Tech: Criminal Machine Learning</h4>
+                        <p> by ketania govender</p> <time> 16 June 2021</time> <hr>
+                        <p>
+a critical analysis <br>
+of how <br>
+machine learning can <br>
+help our criminal justice system in 
+accurately identifying criminals <br>
+with identity recognition.
+ 
+                        </p>
+                    </span>
+                        <a href="blogs/bonustwo.html" id="bloglinks"> Read More.</a>
+                    </article>
+                    <article class="bp3">
+                    </article>
+                    <article class="bp4">
+                        <img src="https://images.pexels.com/photos/6806706/pexels-photo-6806706.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                        alt="A celenite crysal amongst dried flowers" id="blogimg">
+                       <span id="text">
+                            <h4>Getting Witchy in Joburg: The Best Stores</h4>
+                        <p> by cora nightwood</p> <time> 13 June 2021</time> <hr>
+                        <p>
+Dont know where to get your crystals and incense locally? Don't worry, I've got you. 
+With social distancing, why not spoil yourself
+with new spell casting materials to enchant your home? </p>
+                    </span>
+                        <a href="corablogs/shopguide.html" id="bloglinks"> Read More.</a>
+                    </article>
+                    <section class="clientqt">
+                       <h1>&#10077; Cora was absolutely lovely to work with. I had a long stream 
+                        of bad luck and she taught me about the power that I posses within!&#10078; </h1>
+                         &#9866; Helen Greenburg <em> &#64;helhelgreens</em>
+                    </section>
+                    <figure class="clientimg">
+                        <img src="https://images.pexels.com/photos/6964518/pexels-photo-6964518.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="girl smiling taking a selfie" class="selfie">
+                    </figure>
+                    <form action="#" class="mailerform"></form>
+                  </div>
+        
         </main>
+        
     </body>
 </html>

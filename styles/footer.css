@@ -1,0 +1,89 @@
+
+html, body {
+  height: 100%;
+}
+
+
+/* end required for sticky footer */
+ .footer {
+  background: #000;
+  color: #fff;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 3em;
+ 
+}
+
+.footlinks {
+  list-style: none;
+}
+.foottxt{
+  font-family: 'Space Mono';
+  letter-spacing: 0.3em;
+}
+li {
+  display: inline-block;
+  
+}
+#rights{
+  padding-left: 50%;
+  font-family: 'Space Mono';
+  letter-spacing: 0.4em;
+  font-size: small;
+  color: rgba(255, 255, 255, 0.664);
+}
+#hyperlink{
+  font-size: 1.2em;
+  font-family: 'Space Mono';
+  color: #e37a3d;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  padding: 1em 1em 1em 1em;
+}
+.fa {
+  padding: 1em;
+  font-size: 1em;
+  width: 2em;
+  text-align: center;
+  text-decoration: none;
+  border: 2px white;
+  border-radius: 100%;
+  
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+    filter: greyscale(100%)
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+
+
+.fa-youtube {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa-tumblr {
+  background: black;
+  color: white;
+}
+.fa-envelope {
+  background: rgb(0, 0, 0);
+  color: white;
+}

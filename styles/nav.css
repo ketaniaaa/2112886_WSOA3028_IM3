@@ -14,17 +14,20 @@ body {
       padding-bottom: 4em;
   margin-right: 1em;
   margin-left: 1em;
-  border-bottom: solid thin black;
-  z-index: 2;
+  border: solid 4px black;
+  box-shadow: -10px 15px 0px rgb(88, 88, 88)
+  z-index  2;
   }
   .linknames{
       margin-top: 1em;
   }
   .logoimg{
-    width: 12em;
-    height: 2.4em;
+    width: 10em;
+    height: 3.6em;
     padding-right: 1em;
     padding-bottom: 3em;
+    padding-top: 0.2em;
+    transform: translateY(-17%);
    
 }
 
@@ -35,27 +38,25 @@ body {
     list-style: none;
   }
   a {
-    font-family: 'NotoSansSemiCondensedThin';
+    font-family: 'Space Mono';
     text-decoration: none;
-   
-    font-size: 1.6em;
+    font-size: 3em;
+    z-index: 4;
   }
   .logo{
       
       align-content: center;
-  }
-  nav{
-      display: inline-block;
-      text-transform: uppercase;
-    font-family: 'NotoSansSemiCondensedThin';
-  
-    letter-spacing: 0.2em;
   }
   #nav {
     width: 80em; 
     position: absolute;
     left: 50%;
     margin-left: -40em; 
+    display: inline-block;
+    text-transform: uppercase;
+  font-family: 'Space Mono';
+
+  letter-spacing: 0.2em;
   }
   #nav > a {
     display: none;
@@ -70,11 +71,8 @@ body {
     
   }
   #nav li a:active {
-    background-color: rgb(161, 161, 161) !important;
-    border-top: hidden;
-    border-right: hidden;
-    border-left: hidden;
-    border-bottom: #000000 solid thin;
+    background-color: rgba(161, 161, 161, 0.281) !important;
+   width: 50%;
   }
   .logoimg a:active{
       background-color: #00000000; /*opacity is zero bc i dont want it to be highlighted when clicked on mostly bc i saw other sites do that*/
@@ -93,7 +91,18 @@ body {
     position: relative;
     right: -0.313em; 
   }
+  #mainmenua{
+    border-left: solid black;
+    border-right: solid black;
+    border-top: hidden;
+    border-bottom: hidden;
+    padding: 1em 8em 1.8em 6em;
   
+  }
+  #mainmenu{
+    border-right: solid black;
+    padding: 1em 7em 1.8em 6em ;
+  }
   #nav > ul {
     height: 2.75em; 
    
