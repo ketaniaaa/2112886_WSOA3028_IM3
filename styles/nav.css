@@ -48,7 +48,7 @@ body {
       align-content: center;
   }
   #nav {
-    width: 80em; 
+    width: 100%; 
     position: absolute;
     left: 50%;
     margin-left: -40em; 
