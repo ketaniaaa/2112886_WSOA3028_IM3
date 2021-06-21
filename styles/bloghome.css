@@ -90,6 +90,9 @@ main {
     clear: both;
     display: table;
   }
+  img{
+    filter: grayscale(100%) contrast(130%);
+  }
   #featuredbanner{
     margin-top: 1em;
     margin-bottom: 1.5em;
@@ -112,5 +115,55 @@ main {
   #submenulink>a:hover{
     text-decoration: underline;
   }
+/* footer code bc the external css i made didnt work with the java so this is a quick fix, i wanted it to be sticky */
+footer{
+  width: 90%;
+  border: white 3px solid;
+  background-color: black;
+  padding: 1em 1em 1em 1em;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+margin-left: 2em;
+  box-shadow: -17px 19px 0px 2px #eb7530;
+-webkit-box-shadow: -17px 19px 0px 2px #eb7530;
+-moz-box-shadow: -17px 19px 0px 2px #eb7530;
+transform: translateY(200%);
 
+}
+#foot-links{
+  display: inline-flex;
+}
+.fa{
+  background: black;
+  color: white;
+  padding: 1em 1em 1em 1em;
+}
+.fa:hover {
+  border:#eb7530 2px solid;
+  border-radius: 100%;
+}
+#copy{
+  font-size: 0.7em;
+  color: rgba(240, 248, 255, 0.507);
+  font-family: 'Space Mono';
+}
+#quicklinks{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+  font-family: 'Space Mono';
+  font-size:0.5em;
+  padding: 1em 1em 1em 1em;
+}
+.quicks{
+  padding: 1em 1em 1em 1em;
+  font-size: 1em;
+  color: white;
+  font-family: 'Space Mono';
+}
+.quicks:hover{
+  color: #eb7530;
+}
     
