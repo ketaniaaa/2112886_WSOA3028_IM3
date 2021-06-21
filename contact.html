@@ -3,7 +3,7 @@
     <head>
         <title>Contact</title>
         <link rel="icon" href="images/whitelogo.png" type = "image/x-icon">
-        <link rel="stylesheet" href="styles/about.css" type="text/css">
+        <link rel="stylesheet" href="styles/contact.css" type="text/css">
        <link rel="stylesheet" href="styles/nav.css" type="text/css">
        <script src="scripts/nav.js" type="text/javascript"></script>
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/isabella-sans" type="text/css"/>
@@ -27,14 +27,14 @@
                     </a>
                     
                       <li>
-                        <a href="featured.html" aria-haspopup="true"><span>Home</span></a>
+                        <a href="featured.html" aria-haspopup="true"><span id="mainmenua">Home</span></a>
                           <ul>
                               <li><a href="about.html">About</a></li>
                               <li><a href="contact.html">Contact</a></li>
                           </ul>
                       </li>
                     <li>
-                      <a href="blog.html" aria-haspopup="true"><span>Blog</span></a>
+                      <a href="blog.html" aria-haspopup="true"><span id="mainmenu">Blog</span></a>
                         <ul>
                             <li><a href="esoteric.html">Esoteric Blog Posts</a></li>
                             <li><a href="theory.html">Theory</a></li>
@@ -55,8 +55,64 @@
             </nav>
         </header>
         <main>
-            
+            <div class="container">
+                <map class="map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=30%20Tyrone%20Avenue&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe><a href="https://putlocker-is.org">
+                            </a><br>
+                            </div>
+                        </div>
+                </map>
+
+                <h1 class="contact-title">
+                    Get in Touch! 
+                </h1>
+
+                <address class="address"></address>
+                30 Tyrone Avenue <br>
+                Parkview <br>
+                Johannesburg <br>
+                South Africa <br>
+                2176
+                <div class="phone"></div>
+                 phone: 011 465 7777
+                <div class="email">
+                    <h2>email:</h2>
+                    <a href="malito: coranightwood@coraverse.com" id="myemail"> coranightwood&commat;coraverse.com</a>
+                </div>
+                <a href="#"  class="booksy"> Bookings: Please Book <br> via Booksy</div>
+                <form class="messageform">
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="clientname"><br>
+                    <label for="email"> Your Email:</label><br>
+                    <input type="email" name="clientemail" id="emailer"
+                    > <br>
+                    <label for="message"> Tell Me Whats On Your Mind!</label> <br>
+                    <input type="text" name="msg" id="msg">
+                    <button id="sub">Submit</button>
+                    
+                </form>
+              </div>
         </main>
-   
+        <footer>
+            <ul id="quicklinks">
+              <li><a href="featured.html" class="quicks">Home</a></li>
+              <li><a href="theory.html" class="quicks">Theory Blogs</a></li>
+              <li><a href="design.html" class="quicks">Design</a></li>
+              <li><a href="references.html" class="quicks">References</a></li>
+            </ul>
+            <ul id="foot-links">
+              <li><a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a></li>
+              <li><a href="https://www.tumblr.com" target="_blank" class="fa fa-tumblr"></a></li>
+              <li><a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a></li>
+              <li><a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a></li>
+              <li><a href="#" target="_blank" class="fa fa-envelope"></a></li>
+              <li><a href="references.html" target="_blank" class="fa fa-file-code-o"></a></li>
+            </ul>
+            <aside id="copy"> &copy;ketania govender 2021</aside>
+          
+          </footer>
     </body>
 </html>

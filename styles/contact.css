@@ -1,0 +1,163 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0em 0em;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "contact-title contact-title contact-title contact-title"
+      "map map map map"
+      "map map map map"
+      "address phone messageform messageform"
+      "email booksy messageform messageform";
+    width: 100%;
+    height: 100%;
+    border: solid black 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    font-size: 1.1em;
+  }
+  
+  .map { grid-area: map; 
+border: solid black 5px;
+box-shadow: -17px 19px 0px 2px #eb7530;
+-webkit-box-shadow: -17px 19px 0px 2px #eb7530;
+-moz-box-shadow: -17px 19px 0px 2px #eb7530;
+}
+  .mapouter{
+      position:relative;
+      text-align:right
+      ;height:500px;
+      width:900px;}
+  .gmap_canvas {
+      overflow:hidden;
+      background:none!important;
+      height:500px;
+      width:900px;}
+  
+  .contact-title { 
+      grid-area: contact-title;
+     
+       border: solid 5px #eb7530;
+      box-shadow: -17px 19px 0px 2px rgba(0,0,0,1);
+    -webkit-box-shadow: -17px 19px 0px 2px rgba(0,0,0,1);
+    -moz-box-shadow: -17px 19px 0px 2px rgba(0,0,0,1);
+     }
+  h1{
+      font-size: 5em;
+      font-style: italic;
+      letter-spacing: 0.1em;
+      padding: 0em 2em 0em 2em;
+  }
+  .address {
+       grid-area: address; 
+       border: solid black 2px;
+      transform: translateX(-50%);
+
+       }
+    
+  h2{
+      font-size: 1.3em;
+  }
+  .phone { grid-area: phone; }
+  
+  .email { grid-area: email;
+transform: translateX(230%);
+ }
+  
+  .booksy { grid-area: booksy;
+font-size: 1em; 
+color: black;
+transform: translateX(250%);}
+.booksy:hover{
+    color: #eb7530;
+}
+#myemail{
+    font-size: 1em;
+    color: black;
+}
+  
+  .messageform { 
+      grid-area: messageform;
+    border: #eb7530 5px solid;
+    width: 40%;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    transform: translateY(-150%);
+    background: rgba(218,122,67,0.85);
+background: radial-gradient(circle farthest-side at center center, rgba(218,122,67,0.85) 0%, rgba(255,255,255,0) 90%);
+box-shadow: -10px 19px 0px 2px rgba(0,0,0,1);
+-webkit-box-shadow: -10px 19px 0px 2px rgba(0,0,0,1);
+-moz-box-shadow: -10px 19px 0px 2px rgba(0,0,0,1);
+padding: 1em 1em 1em 1em ;
+    }
+    #msg{
+        padding: 4em 1em 6em 1em;
+
+    }
+  #sub{
+      border: solid black;
+      color:black;
+      background-color: #eb753000;
+      padding: 0em 1em 0em 1em;
+      font-family: 'Space Mono';
+      font-size: 1em;
+  }
+  /* footer code bc the external css i made didnt work with the java so this is a quick fix, i wanted it to be sticky */
+footer{
+    width: 90%;
+    border: white 3px solid;
+    background-color: black;
+    padding: 1em 1em 1em 1em;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+  margin-left: 2em;
+    box-shadow: -17px 19px 0px 2px #eb7530;
+  -webkit-box-shadow: -17px 19px 0px 2px #eb7530;
+  -moz-box-shadow: -17px 19px 0px 2px #eb7530;
+  
+  
+  }
+  #foot-links{
+    display: inline-flex;
+  }
+  .fa{
+    background: black;
+    color: white;
+    padding: 1em 1em 1em 1em;
+  }
+  .fa:hover {
+    border:#eb7530 2px solid;
+    border-radius: 100%;
+  }
+  #copy{
+    font-size: 0.7em;
+    color: rgba(240, 248, 255, 0.507);
+    font-family: 'Space Mono';
+  }
+  #quicklinks{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-family: 'Space Mono';
+    font-size:0.5em;
+    padding: 1em 1em 1em 1em;
+  }
+  .quicks{
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
+    color: white;
+    font-family: 'Space Mono';
+  }
+  .quicks:hover{
+    color: #eb7530;
+  }
