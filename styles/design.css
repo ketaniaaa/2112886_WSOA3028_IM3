@@ -1,0 +1,160 @@
+main{
+    margin: 0;
+    padding: 0;
+   
+  }
+  img{ 
+    filter: grayscale(100%) contrast(120%);
+  }
+  button :hover{
+      background-color: #aaa;
+  }
+  h2, time {
+    font-family: 'Space Mono';
+  }
+  #readarticle{
+    font-size: 1em;
+  }
+  #readarticle:hover{
+    background-color: #ed75306e;
+  }
+  time{
+    padding: 0em 1em 0em 2em 
+  }
+  h1{
+      font-family: 'Space Mono';
+      letter-spacing: 0.5em;
+      padding: 1em 1em 1em 1em;
+      border: solid #ed7530 5px;
+      box-shadow: -20px 20px 0px 2px rgba(0,0,0,1);
+      font-style: italic;
+      text-shadow: #aaa 2px;
+      background-size: 80%;
+  }
+  
+  li,a,p,button {
+    font-family: 'Work Sans';
+    color: black;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  button {
+    border-radius: none;
+    padding: 5px 20px;
+    background: white;
+    border: 2px solid black;
+    font-size: 1.1rem;
+  
+  }
+  
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .latest-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .latest-grid-item {
+    flex-basis: calc(30% - 10px);
+    margin: 20px 0;
+    border: 4px solid black;
+    box-shadow: -10px 10px 0px 2px #ed7530;
+    margin: 1em 1em 1em 1em;
+  
+  }
+  main{ 
+    border: 1em 1em 1em 1em;
+    border: black solid;
+    margin-top: 1em;
+   
+  
+  }
+  .latest-grid-item h2,h3,p,hr,button {
+    margin: 1rem ;
+  }
+  
+  .latest-grid-item h3 {
+    color: #aaa;
+  }
+  
+  .latest-grid-item img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .latest {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 900px) {
+    .latest-grid-item {
+        flex-basis: calc(45% - 10px);
+    }
+  }
+  
+  
+  @media (max-width: 550px) {
+    .latest-grid-item {
+        flex-basis: 100%;
+    }
+  }
+  /* footer code bc the external css i made didnt work with the java so this is a quick fix, i wanted it to be sticky */
+  footer{
+    width: 90%;
+    border: white 3px solid;
+    background-color: black;
+    padding: 1em 1em 1em 1em;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+  margin-left: 2em;
+    box-shadow: -17px 19px 0px 2px #eb7530;
+  -webkit-box-shadow: -17px 19px 0px 2px #eb7530;
+  -moz-box-shadow: -17px 19px 0px 2px #eb7530;
+  
+  
+  }
+  #foot-links{
+    display: inline-flex;
+  }
+  .fa{
+    background: black;
+    color: white;
+    padding: 1em 1em 1em 1em;
+  }
+  .fa:hover {
+    border:#eb7530 2px solid;
+    border-radius: 100%;
+  }
+  #copy{
+    font-size: 0.7em;
+    color: rgba(240, 248, 255, 0.507);
+    font-family: 'Space Mono';
+  }
+  #quicklinks{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-family: 'Space Mono';
+    font-size:0.5em;
+    padding: 1em 1em 1em 1em;
+  }
+  .quicks{
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
+    color: white;
+    font-family: 'Space Mono';
+  }
+  .quicks:hover{
+    color: #eb7530;
+  }
