@@ -92,7 +92,7 @@ body {
     position: relative;
     right: -0.313em; 
   }
-  #mainmenua{
+ /* #mainmenua{
     border-left: solid black;
     border-right: solid black;
     border-top: hidden;
@@ -103,7 +103,7 @@ body {
   #mainmenu{
     border-right: solid black;
     padding: 1em 7em 1.8em 6em ;
-  }
+  }*/
   #nav > ul {
     height: 2.75em; 
    
