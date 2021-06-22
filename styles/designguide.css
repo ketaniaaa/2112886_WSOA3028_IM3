@@ -16,5 +16,62 @@ margin-right: auto;
 margin-top: 1em;;
 padding: 1em 1em 1em 1em;
   }
+  #titlogo{
+    background-color: black;
+    margin-left: 15em;
+    width: 10em;
+    padding: 1em 1em 1em 1em;
+    margin: 1em 1em 1em 15em;
+    box-shadow: -10px 10px 0px 2px #000000;
+    border: 3px solid orange;
+  }
+h1{
+  justify-content: center;
+  border: 5px solid black;
+  align-items: center;
+  justify-items: center;
+  padding: 1em 3em 1em 12em;
+  box-shadow: -10px 10px 0px 2px #eb7530;
 
-  
+}
+#subhead{
+  border: 3px solid #eb7530;
+  padding: 1em 1em 1em 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#designlink{
+  font-size: 1em;
+  color: #eb7530;
+}
+#designlink:hover{
+  text-decoration: underline;
+}
+#thinlogo{
+  width: 10em;
+  padding: 1em 1em 1em 1em;
+  margin: 1em 1em 1em 10em;
+  box-shadow: -10px 10px 0px 2px #000000;
+  border: 3px solid orange;
+
+}
+#exampletext{
+  border: hidden;
+  box-shadow: none;
+}
+#auras{
+  width: 60em;
+ margin: 1em 1em 1em 3em;
+ border: 2px solid black;
+ box-shadow: -10px 10px 0px 2px #eb7530;
+}
+  #brut{
+    width: 60em;
+ margin: 1em 1em 1em 4em;
+ border: 2px solid black;
+ box-shadow: -10px 10px 0px 2px #eb7530;
+  }
+  #colscheme{
+    margin-left: 15em;
+    
+  }
