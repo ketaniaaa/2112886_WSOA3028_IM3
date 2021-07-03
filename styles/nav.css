@@ -21,7 +21,7 @@ body {
   .linknames{
       margin-top: 1em;
   }
-  .logoimg{
+  .u-photo{
     width: 10em;
     height: 3.6em;
     padding-right: 1em;
@@ -75,7 +75,7 @@ body {
     background-color: rgba(161, 161, 161, 0.281) !important;
    width: 100%;
   }
-  .logoimg a:active{
+  .u-photo a:active{
       background-color: #00000000; /*opacity is zero bc i dont want it to be highlighted when clicked on mostly bc i saw other sites do that*/
   } /*note to self: dnt change opacity on this one*/
   #nav span:after {
@@ -233,7 +233,7 @@ width: 90%;
     align-content: center;
 
 }
-.logoimg{
+.u-photo{
     width: 3em;
     height: 3.4em;
     padding-right: 2em;

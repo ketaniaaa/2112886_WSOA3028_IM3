@@ -1,0 +1,17 @@
+nav{
+    color: black;
+}
+.navbar{
+    color: black;
+    font-family: 'Space Mono';
+    font-size: 1em;
+}
+.header-nav{
+    border: 3px solid blacks;
+}
+ul{
+    display: inline;
+}
+body{
+    background-color: aquamarine;
+}

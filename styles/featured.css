@@ -25,6 +25,9 @@
 
 .bannerpic { 
   grid-area: bannerpic; 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   
 }
 #buycopy{
@@ -63,20 +66,26 @@ box-shadow: 18px 18px 0px 0px rgba(0,0,0,1);
 .getreading { 
   grid-area: getreading;
 transform: translateX(20%) translateY(-50%);
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
 }
   .tarotpic{
    width: 15em;
    border: 5px solid #eb7530;
    box-shadow: -18px 18px 0px 0px rgb(243, 128, 20);
 -webkit-box-shadow: -18px 18px 0px 0px rgba(243, 128, 20);
--moz-box-shadow: -18px 18px 0px 0px rgba(243, 128, 20)
+-moz-box-shadow: -18px 18px 0px 0px rgba(243, 128, 20);
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
   }
-  .decopng{
+  #decopng{
     width: 20em;
     transform: translateX(-30%) translateY(-50%);
   }
 
-.getreadingtext { 
+#getreadingtext { 
   grid-area: getreadingtext; 
   transform: translateY(-70%) translateX(-20%);
   border: 5px solid #eb7530;
@@ -111,7 +120,7 @@ color: color;
 #bloglinks a:hover{
 text-decoration: underline;
 }
-.bp1 {
+.hReview {
    grid-area: bp1;
 margin-left: 2em ;
 margin-right: 2em;
@@ -121,9 +130,12 @@ margin-right: 2em;
    -webkit-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    -moz-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    padding: 1em 1em 2em 1em;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
    }
 
-.bp2 {
+.hFeed {
    grid-area: bp2; 
    margin-left: 5em ;
    margin-right: 5em;
@@ -133,9 +145,12 @@ margin-right: 2em;
    -webkit-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    -moz-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    padding: 1em 1em 2em 1em;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
   }
 
-.bp4 {
+.hFeed-2 {
    grid-area: bp4;
    margin-left: 2em ;
 margin-right: 2em;
@@ -145,6 +160,9 @@ margin-right: 2em;
    -webkit-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    -moz-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    padding: 1em 1em 2em 1em;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
   }
 
 .clientqt {
@@ -160,9 +178,12 @@ margin-right: 2em;
 background: radial-gradient(circle farthest-side at center center, #ee854ccc 0%, #ffffff 70%);
 background: -webkit-radial-gradient(circle farthest-side at center center, #ee864c 0%, #ffffff 70%);
 background: -moz-radial-gradient(circle farthest-side at center center, #ee864c 0%, #ffffff 70%);
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
   }
 
-.clientimg { 
+#clientimg { 
   grid-area: clientimg; 
 
 }
@@ -173,11 +194,16 @@ background: -moz-radial-gradient(circle farthest-side at center center, #ee864c 
   border: thick solid black;
   box-shadow: 0px 0px 0px 26px rgb(253, 253, 253);
   -webkit-box-shadow: 0px 0px 0px 26px rgb(255, 255, 255);
-  -moz-box-shadow: 0px 0px 0px 26px rgb(255, 255, 255);;
+  -moz-box-shadow: 0px 0px 0px 26px rgb(255, 255, 255);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
-.mailerform { 
+.hCard { 
   grid-area: mailerform;
-  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
  }
  /* footer code bc the external css i made didnt work with the java so this is a quick fix, i wanted it to be sticky */
 footer{
@@ -193,6 +219,9 @@ margin-left: 2em;
   box-shadow: -17px 19px 0px 2px #eb7530;
 -webkit-box-shadow: -17px 19px 0px 2px #eb7530;
 -moz-box-shadow: -17px 19px 0px 2px #eb7530;
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
 
 }
 #foot-links{
@@ -228,4 +257,7 @@ margin-left: 2em;
 }
 .quicks:hover{
   color: #eb7530;
+}
+@media (max-width: 800px){
+  flex: 100%;
 }
