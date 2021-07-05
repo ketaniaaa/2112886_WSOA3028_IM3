@@ -196,12 +196,12 @@ margin-left: 2em;
   font-size:0.5em;
   padding: 1em 1em 1em 1em;
 }
-.quicks{
+#quicks{
   padding: 1em 1em 1em 1em;
   font-size: 1em;
   color: white;
   font-family: 'Space Mono';
 }
-.quicks:hover{
+#quicks:hover{
   color: #eb7530;
 }

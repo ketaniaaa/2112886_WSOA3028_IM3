@@ -23,7 +23,7 @@
 
 }
 
-.bannerpic { 
+#bannerpic { 
   grid-area: bannerpic; 
   display: flex;
   flex-flow: row wrap;
@@ -165,7 +165,7 @@ margin-right: 2em;
    justify-content: flex-start;
   }
 
-.clientqt {
+.hreview {
    grid-area: clientqt;
   margin-left: 5em;
   transform: translateY(-120%);
@@ -249,13 +249,13 @@ justify-content: flex-start;
   font-size:0.5em;
   padding: 1em 1em 1em 1em;
 }
-.quicks{
+#quicks{
   padding: 1em 1em 1em 1em;
   font-size: 1em;
   color: white;
   font-family: 'Space Mono';
 }
-.quicks:hover{
+#quicks:hover{
   color: #eb7530;
 }
 @media (max-width: 800px){

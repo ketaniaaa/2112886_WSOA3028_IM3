@@ -32,7 +32,7 @@
   border: 3px solid black;
 }
 
-.aboutpic {
+#aboutpic {
    grid-area: aboutpic;
   }
 #coraportrait{
@@ -55,18 +55,18 @@ letter-spacing: 0.2em;
 transform: translateY(-25%);
   }
 
-.biocol1 { 
+#biocol1 { 
   grid-area: biocol1; 
   width: 50%;
   transform: translateY(-30%) translateX(-20%);
 }
 
-.biocol2 { 
+#biocol2 { 
   grid-area: biocol2; 
   transform: translateX(-20%) translateY(-30%);
 }
 
-.icon1 {
+#icon1 {
    grid-area: icon1; 
  transform: translateY(-90%);
  filter: grayscale(100%);
@@ -81,7 +81,7 @@ transform: translateY(-25%);
   border: 5px solid black;
 }
 
-.icon2 {
+#icon2 {
    grid-area: icon2;
    transform: translateY(-90%);
    }
@@ -94,7 +94,7 @@ transform: translateY(-25%);
   -webkit-box-shadow: -10px 19px 0px 2px rgba(187, 186, 186,1);
   -moz-box-shadow: -10px 10px 0px 2px rgba(187, 186, 186,1);
 }
-.icon3 { 
+#icon3 { 
   grid-area: icon3;
   transform: translateY(-90%);
  }
@@ -107,7 +107,7 @@ transform: translateY(-25%);
   -webkit-box-shadow: -10px 19px 0px 2px rgba(187, 186, 186,1);
   -moz-box-shadow: -10px 10px 0px 2px rgba(187, 186, 186,1);
 }
-.aboutsumm { 
+#aboutsumm { 
   grid-area: aboutsumm; 
   border: solid 5px #eb7530;
   box-shadow: -17px 19px 0px 2px rgba(0,0,0,1);
@@ -170,12 +170,12 @@ margin-left: 2em;
   font-size:0.5em;
   padding: 1em 1em 1em 1em;
 }
-.quicks{
+#quicks{
   padding: 1em 1em 1em 1em;
   font-size: 1em;
   color: white;
   font-family: 'Space Mono';
 }
-.quicks:hover{
+#quicks:hover{
   color: #eb7530;
 }
