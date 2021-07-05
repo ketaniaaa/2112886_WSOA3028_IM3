@@ -20,14 +20,18 @@
   height: 100%;
   margin-top: 1em;
   border: solid black;
+  box-sizing: border-box;
+ 
 
+
+}
+.grid-item{
+  max-width: 1200px;
 }
 
 #bannerpic { 
   grid-area: bannerpic; 
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+ 
   
 }
 #buycopy{
@@ -66,9 +70,7 @@ box-shadow: 18px 18px 0px 0px rgba(0,0,0,1);
 .getreading { 
   grid-area: getreading;
 transform: translateX(20%) translateY(-50%);
-display: flex;
-flex-flow: row wrap;
-justify-content: flex-start;
+
 }
   .tarotpic{
    width: 15em;
@@ -76,9 +78,7 @@ justify-content: flex-start;
    box-shadow: -18px 18px 0px 0px rgb(243, 128, 20);
 -webkit-box-shadow: -18px 18px 0px 0px rgba(243, 128, 20);
 -moz-box-shadow: -18px 18px 0px 0px rgba(243, 128, 20);
-display: flex;
-flex-flow: row wrap;
-justify-content: flex-start;
+
   }
   #decopng{
     width: 20em;
@@ -130,9 +130,7 @@ margin-right: 2em;
    -webkit-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    -moz-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    padding: 1em 1em 2em 1em;
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: flex-start;
+ 
    }
 
 .hFeed {
@@ -145,9 +143,7 @@ margin-right: 2em;
    -webkit-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    -moz-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    padding: 1em 1em 2em 1em;
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: flex-start;
+   
   }
 
 .hFeed-2 {
@@ -160,12 +156,10 @@ margin-right: 2em;
    -webkit-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    -moz-box-shadow: -13px 13px 0px 0px rgba(0,0,0,1);
    padding: 1em 1em 2em 1em;
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: flex-start;
+ 
   }
 
-.hreview {
+.hitem {
    grid-area: clientqt;
   margin-left: 5em;
   transform: translateY(-120%);
@@ -178,9 +172,7 @@ margin-right: 2em;
 background: radial-gradient(circle farthest-side at center center, #ee854ccc 0%, #ffffff 70%);
 background: -webkit-radial-gradient(circle farthest-side at center center, #ee864c 0%, #ffffff 70%);
 background: -moz-radial-gradient(circle farthest-side at center center, #ee864c 0%, #ffffff 70%);
-display: flex;
-flex-flow: row wrap;
-justify-content: flex-start;
+
   }
 
 #clientimg { 
@@ -195,15 +187,11 @@ justify-content: flex-start;
   box-shadow: 0px 0px 0px 26px rgb(253, 253, 253);
   -webkit-box-shadow: 0px 0px 0px 26px rgb(255, 255, 255);
   -moz-box-shadow: 0px 0px 0px 26px rgb(255, 255, 255);
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+ 
 }
 .hCard { 
   grid-area: mailerform;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+
  }
  /* footer code bc the external css i made didnt work with the java so this is a quick fix, i wanted it to be sticky */
 footer{
@@ -219,9 +207,7 @@ margin-left: 2em;
   box-shadow: -17px 19px 0px 2px #eb7530;
 -webkit-box-shadow: -17px 19px 0px 2px #eb7530;
 -moz-box-shadow: -17px 19px 0px 2px #eb7530;
-display: flex;
-flex-flow: row wrap;
-justify-content: flex-start;
+
 
 }
 #foot-links{
