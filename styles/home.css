@@ -1,4 +1,5 @@
 
+
 .slider{
     max-width: 90%;
     max-height: 80vh;
@@ -14,6 +15,7 @@
   .img1{
     filter: saturate(60%) ;
     filter: hue-rotate(20deg);
+    display: flex;
   }
   .slides{
     width: 500%;
